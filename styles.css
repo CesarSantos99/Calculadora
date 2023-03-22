@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.container {
+    background: linear-gradient(#686A6C, #F1A23D);
+    width: 100vw;
+    height: 100vh;
+}
+
+.grid {
+    display:  grid;
+    height: 480px;
+    width: 320px;
+    display: grid;
+}
+
+.item {
+    color:  white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border: 0.5 solid black;
+}
+
+.button-operations-right {
+    background-color: #F1A23D;
+
+}
+
+.button-numbers {
+    background-color: #75757D;
+}
+
+.button-operations {
+    background-color: #5A5663;  
+}
+
+.display {
+    grid-area: display;
+}
+
+.clear {
+    grid-area: clear;
+}
+
+.plus-minus {
+    grid-area:plus-minus ;
+}
+
+.percent {
+    grid-area: percent;
+}
+
+.buttonision {
+    grid-area:buttonision ;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.multiplication {
+    grid-area: multiplication;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.minus {
+    grid-area: minus;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.plus {
+    grid-area: plus;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.point {
+    grid-area: point;
+}
+
+.equal {
+    grid-area: equal;
+}
+
+section {
+    grid-template-areas: 
+    "display display display display"
+    "clear plus-minus percent buttonision"
+    "seven eight nine multiplication"
+    "four five six minus"
+    "one two three plus"
+    "zero zero point equal";
+}
