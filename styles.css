@@ -57,10 +57,13 @@ section {
 .display {
     background: #4A494F;
     border: none;
-    opacity: 0.3;
+    opacity: 0.7;
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
     grid-column: 1 / 5;
+    color: white;
+    font-size: 30px;
+    padding-left: 15px;
 
 }
 
